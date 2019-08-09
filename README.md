@@ -77,7 +77,7 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 
 1. Download and copy files to your project
 2. Open [vi-lazyload.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/1.0.0/js/vi-lazyload.js)
-3. Change: **line 24** "https://example.com/" to custom folder to store your thumbnails.<br>I am not sure if it will work in all cases, but you may use vimeo domain https://i.vimeocdn.com/video/**VIDEO-ID**.webp?mw=700&mh=392
+3. Change: **line 24** "https://raw.githubusercontent.com/the-muda-organization/vimeo-lazyload/master/demo-img/" to custom folder to store your thumbnails.<br>I am not sure if it will work in all cases, but you may use vimeo domain https://i.vimeocdn.com/video/**VIDEO-ID**.webp?mw=700&mh=392
 4. Minify JS and place it in [vi-lazyload.min.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/1.0.0/js/vi-lazyload.min.js) or simply find variable and change to your domain.
 5. Add CSS and JS to your project:
 ```html
