@@ -1,0 +1,22 @@
+{
+    "name": "the-muda-organization/vimeo-lazyload",
+    "description": "LazyLoad Embed Vimeo Player - simple and lightweight plugin - pure JS",
+    "keywords": [
+        "html5",
+        "vimeo",
+        "lazyload",
+        "lazyload-iframes",
+        "vimeo-lazyload",
+        "css",
+        "js",
+        "muda"
+    ],
+    "readme": "/README.md",
+    "authors": [
+        {
+            "name": "Jakub Muda",
+            "email": "info@muda.pl"
+        }
+    ],
+    "license": "MIT"
+}
