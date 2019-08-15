@@ -17,7 +17,7 @@ LazyLoad Embed Vimeo Player - simple and lightweight plugin - pure JS
 [![License Code](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/license)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
 
 
-## [View Preview](http://htmlpreview.github.io/?https://github.com/the-muda-organization/vimeo-lazyload/blob/master/DEMO.html)
+## [View Preview](https://htmlpreview.github.io/?https://github.com/the-muda-organization/vimeo-lazyload/blob/master/DEMO.html)
 <img src="https://github.com/the-muda-organization/vimeo-lazyload/blob/master/PREVIEW.jpg?raw=true" alt="" style="width:100%;display:block;">
 
 
