@@ -1,6 +1,6 @@
 <!--
  *  Vimeo LazyLoad 
- *  v.1.0.0
+ *  v.1.0.1
  *  https://github.com/the-muda-organization/vimeo-lazyload
  *  MIT License
 -->
@@ -177,6 +177,7 @@
         vilogo.classList.add('vi-lazyload-logo');
         vilogo.href = 'https://vimeo.com/' + data_id;
         vilogo.target = '_blank';
+        vilogo.rel = 'noreferrer';
         vimeo[i].appendChild(vilogo);
         
         //create iframe onclick play-btn
