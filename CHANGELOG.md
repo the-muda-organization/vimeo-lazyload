@@ -8,7 +8,7 @@
 ## v1.0.1 - PATCH
 
 #### JS:
-- Optimizing Links for Chrome Audits - added `rel = 'noreferrer'`
+- Optimizing Links for Chrome Audits - added `rel = 'noreferrer'` to logo
 
 
 ********************************************************************************
