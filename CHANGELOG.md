@@ -21,6 +21,7 @@
 #### JS:
 
 ###### Updated:
+- `data-random=""` was changed to `data-thumb=""` for easier use of vi-lazyload
 - variable names updated to more consistent ones for easier development - prefix `vi_` was added to keep the code clean. This will be usefull in the future in case new and more advanced features will be added.
 - iframe source is now set using `element.src = ""` instead of `element.setAttribute('src','');`
 - image `alt` attribute is now set using `element.alt = ""` instead of `element.setAttribute('alt','');`
