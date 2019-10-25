@@ -4,7 +4,6 @@
  * https://github.com/the-muda-organization/vimeo-lazyload
  * MIT License
  */
-
 (function(){
     
     //select all elements with class .vi-lazyload
