@@ -148,7 +148,7 @@ We will behave ourselves if you behave yourselves. For more details see our
 
 ********************************************************************************
 ## Copyright and license
-Code and documentation copyright 2017-2019 [The MUDA Organization](https://muda.pl).
+Code and documentation copyright 2017-2020 [The MUDA Organization](https://muda.pl).
 
 Code released under the [MIT License](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/LICENSE).
 
