@@ -4,6 +4,14 @@
 
 ********************************************************************************
 ********************************************************************************
+###### February 8th, 2020
+## v1.0.3 - PATCH
+
+#### CSS:
+- (#1) - Vimeo iFrame has transparent padding so sometimes part of the thumbnail was visible beneath the video. Solved by adding `background-color:#000`
+
+
+********************************************************************************
 ###### October 25th, 2019
 ## v1.0.2 - PATCH
 
