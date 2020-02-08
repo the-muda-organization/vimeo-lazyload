@@ -8,7 +8,7 @@
 ## v1.0.3 - PATCH
 
 #### CSS:
-- (#1) - Vimeo iFrame has transparent padding so sometimes part of the thumbnail was visible beneath the video. Solved by adding `background-color:#000`
+- [(#1)](https://github.com/the-muda-organization/vimeo-lazyload/issues/1) - Vimeo iFrame has transparent padding so sometimes part of the thumbnail was visible beneath the video. Solved by adding `background-color:#000`
 
 
 ********************************************************************************
