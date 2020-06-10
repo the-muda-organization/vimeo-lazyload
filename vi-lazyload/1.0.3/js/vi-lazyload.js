@@ -15,9 +15,9 @@
         //VARIABLES
         var data_id    = vimeo[i].dataset.id,
             data_thumb = vimeo[i].dataset.thumb,
+            data_logo = vimeo[i].dataset.logo,
             vi_image   = new Image(),
-            vi_playbtn = document.createElement('div'),
-            vi_logo    = document.createElement('a');
+            vi_playbtn = document.createElement('div');
         
         //image - thumbnail
         vi_image.classList.add('vi-lazyload-img');
@@ -35,11 +35,15 @@
                 
         //logo link
         //TO DO: In future versions - if data-logo="0" do not create this [??????]
-        vi_logo.classList.add('vi-lazyload-logo');
-        vi_logo.href   = 'https://vimeo.com/' + data_id;
-        vi_logo.target = '_blank';
-        vi_logo.rel    = 'noreferrer';
-        vimeo[i].appendChild(vi_logo);
+
+        if(data_logo !== 0) {
+            var vi_logo = document.createElement('a');
+            vi_logo.classList.add('vi-lazyload-logo');
+            vi_logo.href   = 'https://vimeo.com/' + data_id;
+            vi_logo.target = '_blank';
+            vi_logo.rel    = 'noreferrer';
+            vimeo[i].appendChild(vi_logo);
+        }
         
         //create iframe onclick play-btn
         vimeo[i].querySelector('.vi-lazyload-playbtn').addEventListener('click',function(){
