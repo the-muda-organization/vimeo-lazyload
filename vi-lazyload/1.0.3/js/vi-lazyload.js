@@ -34,9 +34,7 @@
         vimeo[i].appendChild(vi_playbtn);
                 
         //logo link
-        //TO DO: In future versions - if data-logo="0" do not create this [??????]
-
-        if(data_logo !== 0) {
+        if(data_logo !== "0") {
             var vi_logo = document.createElement('a');
             vi_logo.classList.add('vi-lazyload-logo');
             vi_logo.href   = 'https://vimeo.com/' + data_id;
