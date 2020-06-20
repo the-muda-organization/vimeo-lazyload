@@ -4,20 +4,21 @@ LazyLoad Embed Vimeo Player - simple and lightweight plugin - pure JavaScript
 
 ********************************************************************************
 ## Status
-[![Latest Stable Version](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/version)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
-[![Latest Unstable Version](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/v/unstable)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
-
-[![Total Downloads](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/downloads)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
-[![Monthly Downloads](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/d/monthly)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
-[![Daily Downloads](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/d/daily)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
-
-[![CSS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/vi-lazyload/1.0.3/css/vi-lazyload.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/1.0.3/css/vi-lazyload.min.css)
-[![JS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/vi-lazyload/1.0.3/js/vi-lazyload.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/1.0.3/js/vi-lazyload.min.js)
-
-[![License Code](https://poser.pugx.org/the-muda-organization/vimeo-lazyload/license)](https://packagist.org/packages/the-muda-organization/vimeo-lazyload)
+[![GitHub Version](https://img.shields.io/github/release/the-muda-organization/vimeo-lazyload.svg?style=for-the-badge)](https://github.com/the-muda-organization/vimeo-lazyload)
+[![License](https://img.shields.io/github/license/the-muda-organization/vimeo-lazyload.svg?style=for-the-badge)](https://github.com/the-muda-organization/vimeo-lazyload)
 
 
+[![Github Star](https://img.shields.io/github/stars/the-muda-organization/vimeo-lazyload.svg?style=for-the-badge)](https://github.com/the-muda-organization/vimeo-lazyload)
+[![Github Fork](https://img.shields.io/github/forks/the-muda-organization/vimeo-lazyload.svg?style=for-the-badge)](https://github.com/the-muda-organization/vimeo-lazyload)
+
+[![CSS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/vi-lazyload/2.0.0/css/vi-lazyload.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/css/vi-lazyload.min.css)
+[![JS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/vi-lazyload/2.0.0/js/vi-lazyload.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/js/vi-lazyload.min.js)
+
+
+********************************************************************************
 ## [View Preview](https://htmlpreview.github.io/?https://github.com/the-muda-organization/vimeo-lazyload/blob/master/DEMO.html)
+********************************************************************************
+
 <img src="https://github.com/the-muda-organization/vimeo-lazyload/blob/master/PREVIEW.jpg?raw=true" alt="" style="width:100%;display:block;">
 
 
@@ -31,6 +32,7 @@ LazyLoad Embed Vimeo Player - simple and lightweight plugin - pure JavaScript
 - [How to Use](#how-to-use)
 - [Features](#features)
 - [CSS Classes](#css-classes)
+- [FAQ](#faq)
 - [Versioning](#versioning)
 - [Changelog](#changelog)
 - [Team](#team)
@@ -55,7 +57,7 @@ There are no dependencies. No jQuery or other plugins required. See below for [I
 ```
 vi-lazyload/
  │
- └─ 1.x.x/
+ └─ 2.x.x/
     │
     ├── css/
     │   ├── vi-lazyload.css
