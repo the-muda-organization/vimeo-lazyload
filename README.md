@@ -113,8 +113,8 @@ Attribute | Explanation
 ------------ | -------------
 ``class="vi-lazyload"``   | Main container.<br><br>You can add additional style like `border`, `box-shadow` etc. or Bootstrap classes like `img-thumbnail`, `shadow` etc.
 ``data-id="272532681"``   | Vimeo video ID
-``data-thumb=""``         | If you need to add more thumbnails here you can choose which one is displayed. It is usefull for quality specific thumbs (SD, 720p, 1080p etc) or in case of multiple thumbs random one can be selected.<br><br>Name your files ``272532681.jpg`` and add custom suffix.<br><br>For 3 thumbnails make ``272532681--1.jpg``, ``272532681--2.jpg`` and  ``272532681--3.jpg``.<br><br>To show thumbnail 2 use ``data-thumb="--2"`` and so on.<br><br>You can randomize numbers using ``<?php echo mt_rand(1,3);?>``.<br><br>**Leave empty if you have only 1 thumbnail.**
-``data-logo="3"``         | Vimeo logo color.<br><br>Available:<br><br> **0** = none,<br> **1** = blue,<br> **2** = dark,<br> **3** = white.<br><br>You can customize it in CSS.
+``data-thumb=""``         | If you need to add more thumbnails you can choose which one is displayed. It is usefull for quality specific thumbs (SD, 720p, 1080p) or in case of multiple thumbs random one can be selected.<br><br>Name your files ``272532681.jpg`` and add custom suffix.<br><br>For 3 thumbnails make ``272532681--1.jpg``, ``272532681--2.jpg`` and  ``272532681--3.jpg``.<br><br>To show thumbnail 2 use ``data-thumb="--2"`` and so on.<br><br>You can randomize numbers using ``<?php echo mt_rand(1,3);?>``.<br><br>**Leave empty if you have only 1 thumbnail.**
+``data-logo="3"``         | Vimeo logo color. You can customize it in CSS.<br><br>Available:<br><br> **0** = none - logo will not be added by JavaScript,<br> **1** = blue,<br> **2** = dark,<br> **3** = white.
 
 
 ********************************************************************************
