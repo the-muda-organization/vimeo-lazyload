@@ -2,6 +2,26 @@
 ## CHANGELOG:
 
 
+
+###### June 20th, 2020
+## v2.0.0 - NEW VERSION (NON-BREAKING CHANGES IN HTML)
+
+#### CSS:
+- changed layout so that container maintains 16/9 ratio even if JS not loaded
+- thumbnails are loaded as `background-image` using style attributes and CSS variables.
+
+#### JS:
+- rebuilt from scratch
+- added lazyload (using Intersection Observer API - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+- [(#2)](https://github.com/the-muda-organization/vimeo-lazyload/pull/2) - vimeo logo & link not added when `data-logo="0"`
+- important settings moved to variables at the beginning of JS file
+
+#### OTHER:
+- improved documentation
+- DEMO - Bootstrap updated to v5
+
+
+********************************************************************************
 ********************************************************************************
 ********************************************************************************
 ###### February 8th, 2020
