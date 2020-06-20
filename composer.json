@@ -2,12 +2,12 @@
     "name": "the-muda-organization/vimeo-lazyload",
     "description": "LazyLoad Embed Vimeo Player - simple and lightweight plugin - pure JavaScript",
     "keywords": [
-        "html5",
         "vimeo",
         "lazyload",
         "lazyload-iframes",
         "vimeo-lazyload",
         "video",
+        "html5",
         "css",
         "js",
         "muda"
