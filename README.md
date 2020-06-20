@@ -78,13 +78,19 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 ## Installation
 
 1. Download and copy files to your project
-2. Open [vi-lazyload.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/1.0.3/js/vi-lazyload.js)
-3. Change:<br> **line 24** `vi_image.src = 'https://example.com/' + data_id + data_thumb + '.jpg';` to custom folder to store your thumbnails.<br>I am not sure if it will work in all cases, but you may use vimeo domain `https://i.vimeocdn.com/video/**VIDEO-ID**.webp?mw=700&mh=392`
-4. Minify JavaScript and place it in [vi-lazyload.min.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/1.0.3/js/vi-lazyload.min.js).
+2. Open [vi-lazyload.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/js/vi-lazyload.js)
+3. Change settings:
+    - **line 24:** `settings_thumb_base_url` to custom URL where your thumbnails are located.
+4. Minify JavaScript and place it in [vi-lazyload.min.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/js/vi-lazyload.min.js).
 5. Add CSS and JavaScript to your project:
 ```html
-    <link href="https://example.com/vi-lazyload/1.x.x/css/vi-lazyload.min.css" rel="stylesheet">
-    <script src="https://example.com/vi-lazyload/1.x.x/js/vi-lazyload.min.js"></script>
+    <link href="https://example.com/vi-lazyload/2.x.x/css/vi-lazyload.min.css" rel="stylesheet">
+    <script src="https://example.com/vi-lazyload/2.x.x/js/vi-lazyload.min.js"></script>
+```
+**NOTE: Because of small file sizes I recommend adding CSS & JS inline!**
+```html
+    <style>...</style>
+    <script>...</script>
 ```
 
 
@@ -96,8 +102,8 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 ```html
 <div class="vi-lazyload" data-id="272532681" data-thumb="" data-logo="3"></div>
 ```
-3. Name your thumbnail using Vimeo ID ``272532681.jpg`` - to use other file types change file type in JavaScript
-4. Place your thumbnail in a folder specified in JavaScript
+3. Name your thumbnail using Vimeo ID ``272532681.jpg`` - to use other file types change settings in JavaScript
+4. Place your thumbnail in a folder set in JavaScript
 
 
 ********************************************************************************
@@ -117,13 +123,26 @@ Attribute | Explanation
 CSS class                                          | Explanation
 ------------                                       | -------------
 ``.vi-lazyload``                                   | main container
-``.vi-lazyload-img``                               | thumbnail
+``.vi-lazyload::before``                           | pseudo-element used to maintain container ratio and set `background-color`
+``.vi-lazyload-wrap``                              | container and its content added via javascript
+``.vi-lazyload-content``                           | container for play button, logo and thumbnail as `background-image`
 ``.vi-lazyload-playbtn``                           | play button (black)
 ``.vi-lazyload-playbtn:hover``                     | play button on hover (blue)
 ``.vi-lazyload-logo``                              | Vimeo logo
 ``.vi-lazyload-logo:hover``                        | Vimeo logo on hover
 ``.vi-lazyload[data-logo="X"] .vi-lazyload-logo``  | Vimeo logo color based on data attribute
 ``.vi-lazyload iframe``                            | Vimeo embeded iframe after click
+
+
+********************************************************************************
+## FAQ
+
+- **Can I use Vimeo domain to get thumbnails?**
+    - Not as easy as on Youtube. Vimeo doesn't use video id for its thumbnails. You need to use Vimeo API to get URL of thumbnail
+- **Can I use *Vimeo lazyload* with other frameworks like Bootstrap?**
+    - Yes you can! There should be no conflict with other frameworks.
+- **Can I embed video players other than Vimeo?**
+    - Check out our sister project for Youtube Player: https://github.com/the-muda-organization/youtube-lazyload
 
 
 ********************************************************************************
