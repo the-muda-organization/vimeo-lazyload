@@ -11,8 +11,8 @@ LazyLoad Embed Vimeo Player - simple and lightweight plugin - pure JavaScript
 [![Github Star](https://img.shields.io/github/stars/the-muda-organization/vimeo-lazyload.svg?style=for-the-badge)](https://github.com/the-muda-organization/vimeo-lazyload)
 [![Github Fork](https://img.shields.io/github/forks/the-muda-organization/vimeo-lazyload.svg?style=for-the-badge)](https://github.com/the-muda-organization/vimeo-lazyload)
 
-[![CSS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/vi-lazyload/2.0.0/css/vi-lazyload.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/css/vi-lazyload.min.css)
-[![JS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/vi-lazyload/2.0.0/js/vi-lazyload.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/js/vi-lazyload.min.js)
+[![CSS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/dist/css/vi-lazyload.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/dist/css/vi-lazyload.min.css)
+[![JS gzip size](https://img.badgesize.io/the-muda-organization/vimeo-lazyload/master/dist/js/vi-lazyload.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/dist/js/vi-lazyload.min.js)
 
 
 ********************************************************************************
@@ -57,7 +57,7 @@ There are no dependencies. No jQuery or other plugins required. See below for [I
 ```
 vi-lazyload/
  │
- └─ 2.x.x/
+ └─ dist/
     │
     ├── css/
     │   ├── vi-lazyload.css
@@ -78,10 +78,10 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 ## Installation
 
 1. Download and copy files to your project
-2. Open [vi-lazyload.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/js/vi-lazyload.js)
+2. Open [vi-lazyload.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/dist/js/vi-lazyload.js)
 3. Change settings:
     - **line 24:** `settings_thumb_base_url` to custom URL where your thumbnails are located.
-4. Minify JavaScript and place it in [vi-lazyload.min.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/vi-lazyload/2.0.0/js/vi-lazyload.min.js).
+4. Minify JavaScript and place it in [vi-lazyload.min.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/dist/js/vi-lazyload.min.js).
 5. Add CSS and JavaScript to your project:
 ```html
     <link href="https://example.com/vi-lazyload/2.x.x/css/vi-lazyload.min.css" rel="stylesheet">
@@ -138,7 +138,7 @@ CSS class                                          | Explanation
 ## FAQ
 
 - **Can I use Vimeo domain to get thumbnails?**
-    - Not as easy as on Youtube. Vimeo doesn't use video id for its thumbnails. You need to use Vimeo API to get URL of thumbnail
+    - Not as easy as on Youtube. Vimeo doesn't use video id for its thumbnails. You need to use Vimeo API to get URL of thumbnail.
 - **Can I use *Vimeo lazyload* with other frameworks like Bootstrap?**
     - Yes you can! There should be no conflict with other frameworks.
 - **Can I embed video players other than Vimeo?**
