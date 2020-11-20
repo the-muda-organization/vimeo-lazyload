@@ -80,7 +80,7 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 1. Download and copy files to your project
 2. Open [vi-lazyload.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/dist/js/vi-lazyload.js)
 3. Change settings:
-    - **line 24:** `settings_thumb_base_url` to custom URL where your thumbnails are located.
+    - `settings_thumb_base_url` to custom URL where your thumbnails are located.
 4. Minify JavaScript and place it in [vi-lazyload.min.js](https://github.com/the-muda-organization/vimeo-lazyload/blob/master/dist/js/vi-lazyload.min.js).
 5. Add CSS and JavaScript to your project:
 ```html
