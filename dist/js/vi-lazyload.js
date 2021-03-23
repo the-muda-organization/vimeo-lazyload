@@ -1,11 +1,16 @@
 /*!
  * Vimeo LazyLoad 
- * v2.0.0
+ * v2.1.0
  * https://github.com/the-muda-organization/vimeo-lazyload
  * MIT License
  */
 
 (function(){
+    /*
+     * IDEAS FOR THE FUTURE:
+     * - Add data-title attribute to add overlay with title [optional]
+     * - 
+     */
     
     /********************************************************************
     ************************** MAIN VARIABLES ***************************
@@ -48,7 +53,7 @@
         template_logo.target = '_blank';
         template_logo.rel    = 'noreferrer';
         
-        template_iframe.setAttribute('allow','autoplay;fullscreen');
+        template_iframe.setAttribute('allow','autoplay;fullscreen;picture-in-picture');
         template_iframe.setAttribute('allowfullscreen','');
         
         
